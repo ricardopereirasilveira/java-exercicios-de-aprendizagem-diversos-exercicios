@@ -14,6 +14,7 @@ public class wikiJava12 {
         int tabuada;
         System.out.print("Qual tabuada deseja saber? ");
         tabuada = input.nextInt();
+        System.out.println("Tabuada do " + tabuada);
 
         for (int i=1; i<11; i++){
             System.out.printf("%d x %d = %d %n", tabuada, i, tabuada * i);
